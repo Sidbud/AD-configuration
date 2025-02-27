@@ -30,7 +30,8 @@ Now that Active Directory is installed on the domain controller VM, it is time t
 <br />
 
 
-<img src="https://i.imgur.com/X6UGnsf.png" height="80%" width="80%" alt="Configuration Steps"/>
+![image](https://github.com/user-attachments/assets/fe152beb-dc83-40c0-9e68-b8528203f91b)
+
 
 <p>
 Before the client can join the domain, it is important to configure the DNS settings first. The DNS server has to pointing to the domain controller's private IP address. On the Azure portal, open the Networking tab and click on Network Interface. In the DNS servers, enter the domain controller's private IP address and save the changes. Restart the client VM in order to ensure the DNS changes are saved. 
